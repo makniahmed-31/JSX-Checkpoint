@@ -1,0 +1,15 @@
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0c72a5;
+  margin: 100px; 
+}
+@keyframes mymove {
+  from {color: #0c72a5;}
+  to {color: blue;}
+}
+.titlered{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    animation: mymove .5s infinite;
+}
